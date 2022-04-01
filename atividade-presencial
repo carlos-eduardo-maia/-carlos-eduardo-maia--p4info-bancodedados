@@ -1,6 +1,38 @@
-Atividade de Presença-01
+Atividade de Presença - 01
 1º) Dado é o componente básico de um arquivo em um sistema, podemos falar como exemplo nomes e sobrenomes.
 2º) Informação é o conjunto dos componentes, organizados de determinada maneira, podemos citar como exemplo uma lista com os dados; nome e sobrenome.
 3º) Arquivo são uma coleção de registros no qual os sistemas BD são baseados.
 4º) Bancos de Dados são uma coleção de dados, que são organizados para processar informações importantes para os usuários.
 
+Atividade de Presença - 02
+Qº) São sistemas em que os arquivos do banco de dados são unificados, onde um arquivo pode ter registros de outros arquivos com outras informações.
+
+Atividade de Presença - 03
+1º) Principal componente do projeto lógico de um BD.
+2º) Projeto onde a estrutura lógica é criada de acordo com os requisitos de manipulação de dados e estruturas da aplicação.
+3º) Projeto onde o banco de dados é estruturado para um determinado servidor e otimizar para que a estrutura tenha melhor desempenho e administração.
+
+Atividade de Presença - 04
+a) Principais objetos de dados onde as informações são coletadas, exemplo: pessoa, lugar ou evento.
+b) Associações entre uma ou mais entidades.
+c) Características das entidades, fazem com que elas tenham uma descrição.
+d) Conjunto de valores onde os atributos pegam suas características(valores).
+e) Generalização/especialização especifica que vários tipos de entidades com atributos comuns podem ser generalizados para um tipo de entidade maior.
+f) Conexões que mostram e descrevem o que duas entidades diferentes têm em comum.
+g) Cardinalidade é a contagem de elementos associados a uma conexão.
+
+Atividade de Presença - 05
+a) Máxima: essa cardinalidade define quantas ocorrências da entidade podem participar de uma conexão.
+Mínima: define se é obrigatório duas entidades terem alguma relação.
+Exemplo, Temos uma Entidade País e outra Unidade Federativa, existem países que nao tem uma UF, então faz parte de uma Mínima.
+Toda vez que existir uma Unidade federativa, ela vai ser associada a um País. Definindo a cardinalidade máxima
+b) 1 ; 1 Exemplo, Tem uma entidade Pessoa e outra entidade Cliente, a pessoa pode ser um cliente, mas o cliente obrigatoriamente tem que ser uma pessoa.
+c) 1 ; n Temos um Produto e sua Categoria, um produto pode não ter uma categoria, mas a categoria sempre vai pertencer a um produto.
+d) n ; n Temos um Cliente e um Contrato de venda, o cliente pode comemorar um mais de um contrato e o contrato pode ser celebrado por um ou mais de um cliente.
+
+Atividade de Presença - 06
+Qº) usando as entidades Cliente e Contrato:
+  Cliente agora possui um código e o Contrato tem código, numero e categoria.
+  Associando as duas, temos a entidade associativa Cliente do Contrato, que possui todas as características das duas entidades:
+  (Código do cliente, código do contrato, número do contrato e categoria)
+Atividade de Presença - 07
