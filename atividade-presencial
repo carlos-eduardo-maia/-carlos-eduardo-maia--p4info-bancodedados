@@ -35,4 +35,22 @@ Qº) usando as entidades Cliente e Contrato:
   Cliente agora possui um código e o Contrato tem código, numero e categoria.
   Associando as duas, temos a entidade associativa Cliente do Contrato, que possui todas as características das duas entidades:
   (Código do cliente, código do contrato, número do contrato e categoria)
+  
 Atividade de Presença - 07
+Qº) O Modelo tem que ser atualizado, ou seja, as informações que ficam ultrapassadas ou "datadas" tem que ser excluídas, já que um banco de dados não pode ter um tamanho indefinido.
+
+Atividade de Presença - 08
+a) Conjunto sem ordem de linhas, mas que armazena dados de uma entidade.
+b) Coluna ou combinação de colunas onde seus valores diferenciam linhas de uma tabela.
+c) Coluna ou combinação de colunas que aparecem na chave primária, implantando relacionamentos entre entidades.
+d) Também diferencia as linhas de uma tabela, mas após as chaves primárias.
+e) Conjunto de valores de cada coluna da tabela.
+f) Especifica a função que um valor deve cumprir em uma coluna.
+g) Especifica se os campos em uma coluna podem estar vazios ou não.
+h) Define que os valores da chave primária e alternativa são únicos.
+i) Define que os valores da chave estrangeira devem aparecer na chave primária.
+
+Atividade de Presença - 09
+Qº) Tabela é um conjunto de linhas, armazenando dados e com cada linha sendo composta por uma série de campos.
+Na linguagem de banco de dados SQL, existe um conjunto de comandos que organiza o esquema de funcionamento.
+Essa linguagem possui os comandos que cumprem as operações CRUD, criando uma nova tabela, excluindo uma tabela existente e alterar algo na tabela.
